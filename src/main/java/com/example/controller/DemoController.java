@@ -14,4 +14,10 @@ public class DemoController {
 	
 	System.out.println("hi");
 	
+	@RequestMapping(value = "/hi")
+	public String method2()
+	{
+		return ("hi hi");
+	}
+	
 }
